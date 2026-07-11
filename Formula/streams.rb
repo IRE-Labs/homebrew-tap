@@ -6,15 +6,15 @@
 class Streams < Formula
   desc "Streams platform CLI — data vault, studio smart cards, pipelines, feedback"
   homepage "https://studio.streamsplatform.dev"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "file://#{__dir__}/../bin/streams-v0.2.0-darwin-arm64"
-      sha256 "cb389bbc10a9462dd231865bfa4e0440d380df5c7d98393a5ba0f5d8eba7b4fd"
+      url "file://#{__dir__}/../bin/streams-v0.3.0-darwin-arm64"
+      sha256 "6033b810a80ba4983c30a8c0550b4f6c1bfe6be256073fa4654701d6cdc94120"
     else
-      url "file://#{__dir__}/../bin/streams-v0.2.0-darwin-amd64"
-      sha256 "87c2415f22b992bdbb2d12c3a863d9410b7ce2895198006d01c20284205cd2e8"
+      url "file://#{__dir__}/../bin/streams-v0.3.0-darwin-amd64"
+      sha256 "60c6dfd3e5b40cf495f12a3bd9db94a3c76f83fea4860b20baad545e03b61c95"
     end
   end
 
